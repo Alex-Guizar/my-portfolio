@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 const AboutMe = () => {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" id="about-me-anchor">
       <Box sx={{ marginTop: 8 }}>
         <Typography
           variant="h3"

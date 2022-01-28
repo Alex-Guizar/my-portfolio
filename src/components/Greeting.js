@@ -11,8 +11,7 @@ const GreetingBlock = () => {
     <Box sx={{
       background: 'url(images/greeting-banner-4k.jpg) no-repeat center',
       backgroundSize: 'cover',
-      paddingTop: 3,
-      height: { xs: 'calc(100vh - 80px)', md: 'calc(100vh - 93px)' }
+      height: { xs: 'calc(100vh - 56px)', md: 'calc(100vh - 69px)' }
     }}>
       <Container maxWidth="lg" sx={{ height: "100%" }}>
         <Box sx={{

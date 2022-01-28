@@ -17,7 +17,7 @@ const projects = Data.projects;
 
 const MyWork = () => {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" id="my-work-anchor">
       <Box marginTop={8}>
         <Typography
           variant="h3"

@@ -9,7 +9,7 @@ import Button from '@mui/material/Button';
 
 const ContactMe = () => {
   return (
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" id="contact-me-anchor">
       <Box marginTop={8}>
         <Typography
           variant="h3"
