@@ -23,7 +23,9 @@ const AboutMe = () => {
         <Box
           sx={{
             textAlign: 'center',
-            paddingRight: { md: 2 }
+            paddingRight: { md: 2 },
+            minWidth: { md: 350 },
+            flexGrow: 1
           }}
         >
           <img
@@ -41,7 +43,7 @@ const AboutMe = () => {
           sx={{
             flexGrow: 1,
             flexShrink: 1,
-            marginTop: { xs: 2, md: 0 }
+            marginTop: { xs: 2, md: 4 }
           }}
         >
           <Typography paragraph>Hello, my name is Alex Guizar and I am a Full-Stack Developer with a strong background in Front-End Development. My goal is to create clean, snappy web applications with carefully crafted code that give the user an enjoyable experience.</Typography>
