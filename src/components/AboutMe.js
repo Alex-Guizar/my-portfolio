@@ -48,11 +48,11 @@ const AboutMe = () => {
               marginTop: { xs: 2, md: 4 }
             }}
           >
-            <Typography paragraph>Hello, my name is Alex Guizar and I am a Full-Stack Developer with a strong background in Front-End Development. My goal is to create clean, snappy web applications with carefully crafted code that give the user an enjoyable experience.</Typography>
+            <Typography paragraph>Hello, my name is Alex Guizar and I am a Full-Stack Developer with a strong background in Front-End Development. My goal is to create clean, snappy web applications with carefully crafted code that provide an enjoyable experience to the user.</Typography>
 
             <Typography paragraph>Since entering the web development field in 2013, I have pushed myself to continue learning and expand my toolkit.</Typography>
 
-            <Typography paragraph>When not online, I can be found traveling the world, exploring new culinary adventures both in the kitchen, snowboarding in the winter, or running raids in Final Fantasy XIV where I handle callouts for my team and help devise new strategies.</Typography>
+            <Typography paragraph>When not online, I can be found traveling the world, exploring new culinary adventures in the kitchen, snowboarding in the winter, or running raids in Final Fantasy XIV, where I handle callouts for my team and help devise new strategies.</Typography>
           </Box>
         </Box>
       </Box>

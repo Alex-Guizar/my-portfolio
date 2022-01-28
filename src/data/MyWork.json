@@ -25,7 +25,7 @@
       "github": "",
       "image": "images/inline-warehouse-420.png",
       "image2x": "images/inline-warehouse-840.png",
-      "description": "Lead developer in implementing design for mobile first, responsive redesign. Focused on creation of JS modules for product ordering, shopping cart, and product package ordering.",
+      "description": "Lead developer in implementing design for a mobile-first, responsive redesign. Focused on the creation of JS modules for product ordering, shopping cart, and product package orders.",
       "type": "Front-End",
       "skills": [
         "HTML",
@@ -61,7 +61,7 @@
       "github": "https://github.com/Alex-Guizar/movie_seek-Angular-client/",
       "image": "images/movie-seek-angular-420.png",
       "image2x": "images/movie-seek-angular-840.png",
-      "description": "Created an Application where users may seek out movie information and save their favorite movies to their created profile using the Angular framework. Uses the Movie Seek API to provide movie information.",
+      "description": "Created an Application where users may seek out movie information and save their favorite movies to their profile using the Angular framework. Uses the Movie Seek API to provide movie information.",
       "type": "Full-Stack",
       "skills": [
         "Angular",
@@ -77,7 +77,7 @@
       "github": "https://github.com/Alex-Guizar/chit-chat",
       "image": "images/chit-chat-118.jpg",
       "image2x": "images/chit-chat-236.jpg",
-      "description": "Built a chat application to practice development for mobile devices using React Native and using storage services such as Google Firebase",
+      "description": "Built a chat application to practice development for mobile devices using React Native and storage services such as Google Firebase.",
       "type": "Full-Stack",
       "skills": [
         "React Native",
@@ -111,7 +111,7 @@
       "github": "https://github.com/Alex-Guizar/movie_seek-client/",
       "image": "images/movie-seek-react-420.png",
       "image2x": "images/movie-seek-react-840.png",
-      "description": "Created an Application where users may seek out movie information and save their favorite movies to their created profile using the React library. Uses the Movie Seek API to provide movie information.",
+      "description": "Created an Application where users may seek out movie information and save their favorite movies to their profile using the React library. Uses the Movie Seek API to provide movie information.",
       "type": "Full-Stack",
       "skills": [
         "JavaScript",
