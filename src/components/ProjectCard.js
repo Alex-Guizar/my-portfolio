@@ -46,12 +46,16 @@ const ProjectCard = ({ project }) => {
 
       <CardActions disableSpacing>
         {project.website !== ''
-          ? <IconButton aria-label=""><WebIcon /></IconButton>
+          ? <IconButton aria-label="Visit project Website" href={project.website} target="_blank" rel="noreferrer">
+              <WebIcon />
+            </IconButton>
           : ''
         }
  
         {project.github !== ''
-          ? <IconButton aria-label=""><GitHubIcon /></IconButton>
+          ? <IconButton aria-label="Visit project GitHub" href={project.github} target="_blank" rel="noreferrer">
+              <GitHubIcon />
+            </IconButton>
           : ''
         }
 
@@ -59,7 +63,7 @@ const ProjectCard = ({ project }) => {
           expand={expanded}
           onClick={handleExpandClick}
           aria-expanded={expanded}
-          aria-label="show more"
+          aria-label="Show Skills"
         >
           <ExpandMoreIcon />
         </ExpandMore>
