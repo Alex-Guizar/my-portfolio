@@ -14,7 +14,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const Footer = () => {
   return (
     <Container maxWidth="lg">
-      <Box marginTop={8} paddingBottom={8}>
+      <Box marginTop={8} paddingBottom={8} textAlign="center">
         <Typography paragraph>Email: <Link href="mailto:alexguizar90@gmail.com">alexguizar90@gmail.com</Link></Typography>
 
         <Box>

@@ -1,4 +1,8 @@
+// Packages
 import React from 'react';
+
+// Material Components
+import Box from '@mui/material/Box';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,7 +13,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import CodeIcon from '@mui/icons-material/Code';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -31,12 +35,16 @@ const ProjectCard = ({ project }) => {
 
   return (
     <Card sx={{ maxWidth: 420, margin: 'auto' }}>
-      <CardMedia
-        component="img"
-        height="194"
-        image="/static/images/cards/paella.jpg"
-        alt=""
-      />
+      <Box
+        sx={project.name === 'Chit Chat' ? { maxWidth: 420, paddingLeft: '35.95238%', paddingRight: '35.95238%' }: {}}
+      >
+        <CardMedia
+          component="img"
+          image={project.image}
+          srcSet={`${project.image2x} 2x`}
+          alt=""
+        />
+      </Box>
 
       <CardContent>
         <Typography variant="body2" color="text.secondary">
@@ -65,7 +73,7 @@ const ProjectCard = ({ project }) => {
           aria-expanded={expanded}
           aria-label="Show Skills"
         >
-          <ExpandMoreIcon />
+          <CodeIcon />
         </ExpandMore>
       </CardActions>
 
