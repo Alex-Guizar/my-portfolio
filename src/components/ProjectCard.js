@@ -7,9 +7,9 @@ import CardActions from '@mui/material/CardActions';
 import Collapse from '@mui/material/Collapse';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-//import FavoriteIcon from '@mui/icons-material/Favorite';
-//import ShareIcon from '@mui/icons-material/Share';
-//import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import WebIcon from '@mui/icons-material/Web';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -22,7 +22,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -30,40 +30,46 @@ const ProjectCard = () => {
   };
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 420, margin: 'auto' }}>
       <CardMedia
         component="img"
         height="194"
         image="/static/images/cards/paella.jpg"
-        alt="Paella dish"
+        alt=""
       />
+
       <CardContent>
         <Typography variant="body2" color="text.secondary">
-          This impressive paella is a perfect party dish and a fun meal to cook
-          together with your guests. Add 1 cup of frozen peas along with the mussels,
-          if you like.
+          {project.description}
         </Typography>
       </CardContent>
+
       <CardActions disableSpacing>
-        <IconButton aria-label="">
-          
-        </IconButton>
-        <IconButton aria-label="">
-          
-        </IconButton>
+        {project.website !== ''
+          ? <IconButton aria-label=""><WebIcon /></IconButton>
+          : ''
+        }
+ 
+        {project.github !== ''
+          ? <IconButton aria-label=""><GitHubIcon /></IconButton>
+          : ''
+        }
+
         <ExpandMore
           expand={expanded}
           onClick={handleExpandClick}
           aria-expanded={expanded}
           aria-label="show more"
         >
-          View Languages
-          {/* <ExpandMoreIcon /> */}
+          <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
+
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
+          <Typography paragraph>Skills Used:</Typography>
+
+          <Typography paragraph>{project.skills.map((skill, i) => skill + (i + 1 !== project.skills.length ? ', ': ' '))}</Typography>
         </CardContent>
       </Collapse>
     </Card>
