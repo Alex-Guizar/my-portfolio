@@ -1,0 +1,150 @@
+{
+  "projects": [
+    {
+      "_id": "1",
+      "name": "Tennis Warehouse",
+      "website": "https://www.tennis-warehouse.com/",
+      "github": "",
+      "image": "",
+      "description": "Developer working on general upkeep, layout adjustments, and implementing new payment methods. Handled creation of mobile website using jQuery Mobile.",
+      "type": "Front-End",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Inline Warehouse",
+      "website": "https://www.inlinewarehouse.com/",
+      "github": "",
+      "image": "",
+      "description": "Lead developer in implementing design for mobile first, responsive redesign. Focused on creation of JS modules for product ordering, shopping cart, and product package ordering.",
+      "type": "Front-End",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
+      "_id": "3",
+      "name": "Tackle Warehouse",
+      "website": "https://www.tacklewarehouse.com/",
+      "github": "",
+      "image": "",
+      "description": "Developer creating content builders for employee use to generate modular informational pages and product mailers. Handles general upkeep, layout adjustments, and implementing new payment methods.",
+      "type": "Front-End",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
+      "_id": "4",
+      "name": "Movie Seek Angular Client",
+      "website": "https://alex-guizar.github.io/movie_seek-Angular-client/welcome",
+      "github": "https://github.com/Alex-Guizar/movie_seek-Angular-client/",
+      "image": "",
+      "description": "",
+      "type": "Full-Stack",
+      "skills": [
+        "Angular",
+        "Angular Material",
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "_id": "5",
+      "name": "Chit Chat",
+      "website": "",
+      "github": "https://github.com/Alex-Guizar/chit-chat",
+      "image": "",
+      "description": "",
+      "type": "Full-Stack",
+      "skills": [
+        "React Native",
+        "Expo",
+        "Google Firebase"
+      ]
+    },
+    {
+      "_id": "6",
+      "name": "Meet",
+      "website": "https://alex-guizar.github.io/meet/",
+      "github": "https://github.com/Alex-Guizar/meet/",
+      "image": "",
+      "description": "",
+      "type": "Full-Stack",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Axios",
+        "AWS",
+        "Jest",
+        "Cucumber",
+        "Puppeteer",
+        "Atatus"
+      ]
+    },
+    {
+      "_id": "7",
+      "name": "Movie Seek React Client",
+      "website": "https://movie-seek.netlify.app/",
+      "github": "https://github.com/Alex-Guizar/movie_seek-client/",
+      "image": "",
+      "description": "",
+      "type": "Full-Stack",
+      "skills": [
+        "JavaScript",
+        "React",
+        "React Router",
+        "Redux",
+        "Bootstrap",
+        "Axios"
+      ]
+    },
+    {
+      "_id": "8",
+      "name": "Movie Seek API",
+      "website": "",
+      "github": "https://github.com/Alex-Guizar/movie_seek",
+      "image": "",
+      "description": "",
+      "type": "Full-Stack",
+      "skills": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "Mongoose",
+        "Express"
+      ]
+    },
+    {
+      "_id": "9",
+      "name": "Pokedex Lookup",
+      "website": "https://alex-guizar.github.io/js-lookup/",
+      "github": "https://github.com/Alex-Guizar/js-lookup",
+      "image": "",
+      "description": "",
+      "type": "Full-Stack",
+      "skills": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ]
+    }
+  ]
+}
