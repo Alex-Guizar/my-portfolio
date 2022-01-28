@@ -11,13 +11,12 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-// import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const sections = ['About', 'Work', 'Contact'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -30,7 +29,7 @@ const ResponsiveAppBar = () => {
   return (
     <AppBar position="sticky">
       <Container maxWidth="lg">
-        <Toolbar>
+        <Toolbar disableGutters>
           <Typography
             variant="h6"
             noWrap
@@ -48,7 +47,7 @@ const ResponsiveAppBar = () => {
               color="inherit"
               onClick={handleOpenNavMenu}
             >
-              MENU
+              <MenuIcon />
             </IconButton>
             <Menu
               id="menu-appbar"
