@@ -21,17 +21,15 @@ function App() {
     <React.Fragment>
       <ResponsiveAppBar />
 
-      <Container maxWidth="lg">
-        <Greeting />
+      <Greeting />
 
-        <AboutMe />
+      <AboutMe />
 
-        <MyWork />
+      <MyWork />
 
-        <ContactMe />
+      <ContactMe />
 
-        <Footer />
-      </Container>
+      <Footer />
     </React.Fragment>
   );
 }
