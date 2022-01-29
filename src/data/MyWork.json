@@ -1,60 +1,6 @@
 {
   "projects": [
     {
-      "_id": "1",
-      "name": "Tennis Warehouse",
-      "website": "https://www.tennis-warehouse.com/",
-      "github": "",
-      "image": "images/tennis-warehouse-420.png",
-      "image2x": "images/tennis-warehouse-840.png",
-      "description": "Developer working on general upkeep, layout adjustments, and implementing new payment methods. Handled creation of mobile website using jQuery Mobile.",
-      "type": "Front-End",
-      "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery",
-        "Bootstrap",
-        "PHP"
-      ]
-    },
-    {
-      "_id": "2",
-      "name": "Inline Warehouse",
-      "website": "https://www.inlinewarehouse.com/",
-      "github": "",
-      "image": "images/inline-warehouse-420.png",
-      "image2x": "images/inline-warehouse-840.png",
-      "description": "Lead developer in implementing design for a mobile-first, responsive redesign. Focused on the creation of JS modules for product ordering, shopping cart, and product package orders.",
-      "type": "Front-End",
-      "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery",
-        "Bootstrap",
-        "PHP"
-      ]
-    },
-    {
-      "_id": "3",
-      "name": "Tackle Warehouse",
-      "website": "https://www.tacklewarehouse.com/",
-      "github": "",
-      "image": "images/tackle-warehouse-420.png",
-      "image2x": "images/tackle-warehouse-840.png",
-      "description": "Developer creating content builders for employee use to generate modular informational pages and product mailers. Handles general upkeep, layout adjustments, and implementing new payment methods.",
-      "type": "Front-End",
-      "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "jQuery",
-        "Bootstrap",
-        "PHP"
-      ]
-    },
-    {
       "_id": "4",
       "name": "Movie Seek Angular Client",
       "website": "https://alex-guizar.github.io/movie_seek-Angular-client/welcome",
@@ -137,6 +83,60 @@
         "MongoDB",
         "Mongoose",
         "Express"
+      ]
+    },
+    {
+      "_id": "1",
+      "name": "Tennis Warehouse",
+      "website": "https://www.tennis-warehouse.com/",
+      "github": "",
+      "image": "images/tennis-warehouse-420.png",
+      "image2x": "images/tennis-warehouse-840.png",
+      "description": "Developer working on general upkeep, layout adjustments, and implementing new payment methods. Handled creation of mobile website using jQuery Mobile.",
+      "type": "Front-End",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
+      "_id": "2",
+      "name": "Inline Warehouse",
+      "website": "https://www.inlinewarehouse.com/",
+      "github": "",
+      "image": "images/inline-warehouse-420.png",
+      "image2x": "images/inline-warehouse-840.png",
+      "description": "Lead developer in implementing design for a mobile-first, responsive redesign. Focused on the creation of JS modules for product ordering, shopping cart, and product package orders.",
+      "type": "Front-End",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP"
+      ]
+    },
+    {
+      "_id": "3",
+      "name": "Tackle Warehouse",
+      "website": "https://www.tacklewarehouse.com/",
+      "github": "",
+      "image": "images/tackle-warehouse-420.png",
+      "image2x": "images/tackle-warehouse-840.png",
+      "description": "Developer creating content builders for employee use to generate modular informational pages and product mailers. Handles general upkeep, layout adjustments, and implementing new payment methods.",
+      "type": "Front-End",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "jQuery",
+        "Bootstrap",
+        "PHP"
       ]
     },
     {
