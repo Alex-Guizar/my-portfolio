@@ -71,23 +71,29 @@ const ProjectCard = ({ project }) => {
           : ''
         }
 
-        <ExpandMore
-          expand={expanded}
-          onClick={handleExpandClick}
-          aria-expanded={expanded}
-          aria-label="Show Skills"
-        >
-          <CodeIcon />
-        </ExpandMore>
+        {project.skills.length
+          ? <ExpandMore
+            expand={expanded}
+            onClick={handleExpandClick}
+            aria-expanded={expanded}
+            aria-label="Show Skills"
+          >
+            <CodeIcon />
+          </ExpandMore>
+          : ''
+        }
       </CardActions>
 
-      <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <CardContent>
-          <Typography paragraph>Skills Used:</Typography>
+      {project.skills.length
+        ? <Collapse in={expanded} timeout="auto" unmountOnExit>
+          <CardContent>
+            <Typography paragraph>Skills Used:</Typography>
 
-          <Typography paragraph>{project.skills.map((skill, i) => skill + (i + 1 !== project.skills.length ? ', ': ' '))}</Typography>
-        </CardContent>
-      </Collapse>
+            <Typography paragraph>{project.skills.map((skill, i) => skill + (i + 1 !== project.skills.length ? ', ': ' '))}</Typography>
+          </CardContent>
+        </Collapse>
+        : ''
+      }
     </Card>
   );
 }
