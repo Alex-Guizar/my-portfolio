@@ -51,6 +51,17 @@
       ]
     },
     {
+      "_id": "10",
+      "name": "Movie Seek Case Study",
+      "website": "https://alex-guizar.github.io/my-portfolio/case-studies/Movie-Seek-App.pdf",
+      "github": "",
+      "image": "images/ms-case-study-420.png",
+      "image2x": "images/ms-case-study-840.png",
+      "description": "Case Study created for the Movie Seek application.",
+      "type": "Full-Stack",
+      "skills": []
+    },
+    {
       "_id": "7",
       "name": "Movie Seek React Client",
       "website": "https://movie-seek.netlify.app/",

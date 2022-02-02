@@ -47,6 +47,10 @@ const ProjectCard = ({ project }) => {
       </Box>
 
       <CardContent>
+        <Typography variant="h5" component="div">
+          {project.name}
+        </Typography>
+        
         <Typography variant="body2" color="text.secondary">
           {project.description}
         </Typography>
