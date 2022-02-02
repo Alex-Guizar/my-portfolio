@@ -19,6 +19,8 @@ const ContactMe = () => {
         <Typography marginTop={4} paragraph>Have a question or want to collaborate on a project? Feel free to email me.</Typography>
 
         <Button variant="contained" href="mailto:alexguizar90@gmail.com">Contact Me</Button>
+
+        <Button sx={{marginLeft: 2}} variant="contained" href="Guizar-Alex-Resume.pdf" target="_blank">My Resume</Button>
       </Box>
     </Container>
   );
