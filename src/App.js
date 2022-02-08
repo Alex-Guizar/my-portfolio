@@ -69,8 +69,6 @@ function App() {
 
       <ContactMe />
 
-      <Footer />
-
       <ScrollTop>
         <Fab color="secondary" size="small" aria-label="Scroll back to top">
           <KeyboardArrowUpIcon />
