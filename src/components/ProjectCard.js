@@ -12,12 +12,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 const ProjectCard = ({ project }) => {
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
-
   return (
     <Card sx={{ maxWidth: 420, margin: 'auto' }}>
       <Box
@@ -38,6 +32,10 @@ const ProjectCard = ({ project }) => {
         
         <Typography variant="body2" color="text.secondary">
           {project.description}
+        </Typography>
+
+        <Typography variant="body2" color="text.secondary" mt={1}>
+          <strong>Skills Used:</strong><br />{project.skills.join(', ')}
         </Typography>
       </CardContent>
 
