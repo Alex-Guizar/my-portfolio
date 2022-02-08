@@ -35,7 +35,7 @@ const GreetingBlock = () => {
             Alex Guizar
           </Typography>
           <Typography paragraph>
-            And I am a Full-Stack Developer who loves to create user interactivity.
+            And I am a Full-Stack Developer who loves to create user interactivity. I currently work out of San Luis Obispo, California.
           </Typography>
         </Box>
       </Container>
