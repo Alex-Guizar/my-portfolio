@@ -22,76 +22,76 @@ import FirebaseIcon from '../customIcons/FirebaseIcon.svg';
 // Skill Icon List
 const mySkills = [
   {
-    '_id': 1,
+    '_id': "skill1",
     'type': 'HTML',
     'icon': HtmlIcon,
     'iconWidth': 42
   },
   {
-    '_id': 2,
+    '_id': "skill2",
     'type': 'CSS',
     'icon': CssIcon,
     'iconWidth': 30
   },
   {
-    '_id': 2,
+    '_id': "skill3",
     'type': 'Sass',
     'icon': SassIcon,
     'iconWidth': 48
   },
   {
-    '_id': 3,
+    '_id': "skill4",
     'type': 'JavaScript',
     'icon': JsIcon,
     'iconWidth': 40
   },
   {
-    '_id': 4,
+    '_id': "skill5",
     'type': 'React',
     'icon': ReactIcon,
     'iconWidth': 42
   },
   {
-    '_id': 5,
+    '_id': "skill6",
     'type': 'React Native',
     'icon': ReactIcon,
     'iconWidth': 42
   },
   {
-    '_id': 6,
+    '_id': "skill7",
     'type': 'Angular',
     'icon': AngularIcon,
     'iconWidth': 42
   },
   {
-    '_id': 7,
+    '_id': "skill8",
     'type': 'Bootstrap',
     'icon': BootstrapIcon,
     'iconWidth': 46
   },
   {
-    '_id': 8,
+    '_id': "skill9",
     'type': 'NodeJS',
     'icon': NodeIcon,
     'iconWidth': 48
   }
   ,
   {
-    '_id': 9,
+    '_id': "skill10",
     'type': 'PHP',
     'icon': PhpIcon,
     'iconWidth': 48
   }
   ,
   {
-    '_id': 10,
+    '_id': "skill11",
     'type': 'MongoDB',
     'icon': MongoDbIcon,
     'iconWidth': 80
   }
   ,
   {
-    '_id': 11,
+    '_id': "skill12",
     'type': 'Google Firebase',
     'icon': FirebaseIcon,
     'iconWidth': 32

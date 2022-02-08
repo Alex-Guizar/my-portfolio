@@ -1,10 +1,40 @@
 {
   "projects": [
     {
-      "_id": "4",
-      "name": "Movie Seek Angular Client",
-      "website": "https://alex-guizar.github.io/movie_seek-Angular-client/welcome",
-      "github": "https://github.com/Alex-Guizar/movie_seek-Angular-client/",
+      "_id": "project1",
+      "name": "Movie Seek",
+      "links": [
+        {
+          "_id": "link1",
+          "name": "Angular Client",
+          "url": "https://alex-guizar.github.io/movie_seek-Angular-client/welcome"
+        },
+        {
+          "_id": "link2",
+          "name": "Angular GitHub",
+          "url": "https://github.com/Alex-Guizar/movie_seek-Angular-client/"
+        },
+        {
+          "_id": "link3",
+          "name": "React Client",
+          "url": "https://movie-seek.netlify.app/"
+        },
+        {
+          "_id": "link4",
+          "name": "React GitHub",
+          "url": "https://github.com/Alex-Guizar/movie_seek-client/"
+        },
+        {
+          "_id": "link5",
+          "name": "Movie Seek API",
+          "url": "https://github.com/Alex-Guizar/movie_seek"
+        },
+        {
+          "_id": "link6",
+          "name": "Case Study",
+          "url": "https://alex-guizar.github.io/my-portfolio/case-studies/Movie-Seek-App.pdf"
+        }
+      ],
       "image": "images/movie-seek-angular-420.png",
       "image2x": "images/movie-seek-angular-840.png",
       "description": "Created an Application where users may seek out movie information and save their favorite movies to their profile using the Angular framework. Uses the Movie Seek API to provide movie information.",
@@ -13,14 +43,28 @@
         "Angular",
         "Angular Material",
         "JavaScript",
-        "TypeScript"
+        "TypeScript",
+        "React",
+        "React Router",
+        "Redux",
+        "Bootstrap",
+        "Axios",
+        "Node.js",
+        "MongoDB",
+        "Mongoose",
+        "Express"
       ]
     },
     {
-      "_id": "5",
+      "_id": "project2",
       "name": "Chit Chat",
-      "website": "",
-      "github": "https://github.com/Alex-Guizar/chit-chat",
+      "links": [
+        {
+          "_id": "link7",
+          "name": "View GitHub",
+          "url": "https://github.com/Alex-Guizar/chit-chat"
+        }
+      ],
       "image": "images/chit-chat-118.jpg",
       "image2x": "images/chit-chat-236.jpg",
       "description": "Built a chat application to practice development for mobile devices using React Native and storage services such as Google Firebase.",
@@ -32,10 +76,20 @@
       ]
     },
     {
-      "_id": "6",
+      "_id": "project3",
       "name": "Meet",
-      "website": "https://alex-guizar.github.io/meet/",
-      "github": "https://github.com/Alex-Guizar/meet/",
+      "links": [
+        {
+          "_id": "link8",
+          "name": "View Website",
+          "url": "https://alex-guizar.github.io/meet/"
+        },
+        {
+          "_id": "link9",
+          "name": "View GitHub",
+          "url": "https://github.com/Alex-Guizar/meet/"
+        }
+      ],
       "image": "images/meet-app-420.png",
       "image2x": "images/meet-app-840.png",
       "description": "Developed a serverless, progressive web application (PWA) with React using test-driven development (TDD) to fetch upcoming coding events from the Google Calendar API.",
@@ -51,56 +105,40 @@
       ]
     },
     {
-      "_id": "10",
-      "name": "Movie Seek Case Study",
-      "website": "https://alex-guizar.github.io/my-portfolio/case-studies/Movie-Seek-App.pdf",
-      "github": "",
-      "image": "images/ms-case-study-420.jpg",
-      "image2x": "images/ms-case-study-840.jpg",
-      "description": "Case Study created for the Movie Seek application.",
-      "type": "Full-Stack",
-      "skills": []
-    },
-    {
-      "_id": "7",
-      "name": "Movie Seek React Client",
-      "website": "https://movie-seek.netlify.app/",
-      "github": "https://github.com/Alex-Guizar/movie_seek-client/",
-      "image": "images/movie-seek-react-420.png",
-      "image2x": "images/movie-seek-react-840.png",
-      "description": "Created an Application where users may seek out movie information and save their favorite movies to their profile using the React library. Uses the Movie Seek API to provide movie information.",
+      "_id": "project4",
+      "name": "Pokedex Lookup",
+      "links": [
+        {
+          "_id": "link10",
+          "name": "View Website",
+          "url": "https://alex-guizar.github.io/js-lookup/"
+        },
+        {
+          "_id": "link11",
+          "name": "View GitHub",
+          "url": "https://github.com/Alex-Guizar/js-lookup"
+        }
+      ],
+      "image": "images/pokedex-lookup-420.png",
+      "image2x": "images/pokedex-lookup-840.png",
+      "description": "Created a Pokedex lookup to practice interacting with APIs, such as the PokeAPI.",
       "type": "Full-Stack",
       "skills": [
+        "HTML",
         "JavaScript",
-        "React",
-        "React Router",
-        "Redux",
-        "Bootstrap",
-        "Axios"
+        "CSS"
       ]
     },
     {
-      "_id": "8",
-      "name": "Movie Seek API",
-      "website": "",
-      "github": "https://github.com/Alex-Guizar/movie_seek",
-      "image": "images/movie-seek-api-420.png",
-      "image2x": "images/movie-seek-api-840.png",
-      "description": "Constructed a server-side 'movies' database and API. This is to be used in the client Movie Seek applications.",
-      "type": "Full-Stack",
-      "skills": [
-        "JavaScript",
-        "Node.js",
-        "MongoDB",
-        "Mongoose",
-        "Express"
-      ]
-    },
-    {
-      "_id": "1",
-      "name": "Tennis Warehouse",
-      "website": "https://www.tennis-warehouse.com/",
-      "github": "",
+      "_id": "project5",
+      "name": "Tennis Warehouse - Client",
+      "links": [
+        {
+          "_id": "link12",
+          "name": "View Website",
+          "url": "https://www.tennis-warehouse.com/"
+        }
+      ],
       "image": "images/tennis-warehouse-420.png",
       "image2x": "images/tennis-warehouse-840.png",
       "description": "Developer working on general upkeep, layout adjustments, and implementing new payment methods. Handled creation of mobile website using jQuery Mobile.",
@@ -115,10 +153,15 @@
       ]
     },
     {
-      "_id": "2",
-      "name": "Inline Warehouse",
-      "website": "https://www.inlinewarehouse.com/",
-      "github": "",
+      "_id": "project6",
+      "name": "Inline Warehouse - Client",
+      "links": [
+        {
+          "_id": "link13",
+          "name": "View Website",
+          "url": "https://www.inlinewarehouse.com/"
+        }
+      ],
       "image": "images/inline-warehouse-420.png",
       "image2x": "images/inline-warehouse-840.png",
       "description": "Lead developer in implementing design for a mobile-first, responsive redesign. Focused on the creation of JS modules for product ordering, shopping cart, and product package orders.",
@@ -133,10 +176,15 @@
       ]
     },
     {
-      "_id": "3",
-      "name": "Tackle Warehouse",
-      "website": "https://www.tacklewarehouse.com/",
-      "github": "",
+      "_id": "project7",
+      "name": "Tackle Warehouse - Client",
+      "links": [
+        {
+          "_id": "link14",
+          "name": "View Website",
+          "url": "https://www.tacklewarehouse.com/"
+        }
+      ],
       "image": "images/tackle-warehouse-420.png",
       "image2x": "images/tackle-warehouse-840.png",
       "description": "Developer creating content builders for employee use to generate modular informational pages and product mailers. Handles general upkeep, layout adjustments, and implementing new payment methods.",
@@ -148,21 +196,6 @@
         "jQuery",
         "Bootstrap",
         "PHP"
-      ]
-    },
-    {
-      "_id": "9",
-      "name": "Pokedex Lookup",
-      "website": "https://alex-guizar.github.io/js-lookup/",
-      "github": "https://github.com/Alex-Guizar/js-lookup",
-      "image": "images/pokedex-lookup-420.png",
-      "image2x": "images/pokedex-lookup-840.png",
-      "description": "Created a Pokedex lookup to practice interacting with APIs, such as the PokeAPI.",
-      "type": "Full-Stack",
-      "skills": [
-        "HTML",
-        "JavaScript",
-        "CSS"
       ]
     }
   ]
