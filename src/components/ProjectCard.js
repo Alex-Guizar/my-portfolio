@@ -3,28 +3,13 @@ import React from 'react';
 
 // Material Components
 import Box from '@mui/material/Box';
-import { styled } from '@mui/material/styles';
+import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
-import IconButton from '@mui/material/IconButton';
+import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import WebIcon from '@mui/icons-material/Web';
-import CodeIcon from '@mui/icons-material/Code';
-
-const ExpandMore = styled((props) => {
-  const { expand, ...other } = props;
-  return <IconButton {...other} />;
-})(({ theme, expand }) => ({
-  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
-  marginLeft: 'auto',
-  transition: theme.transitions.create('transform', {
-    duration: theme.transitions.duration.shortest,
-  }),
-}));
 
 const ProjectCard = ({ project }) => {
   const [expanded, setExpanded] = React.useState(false);
@@ -57,43 +42,21 @@ const ProjectCard = ({ project }) => {
       </CardContent>
 
       <CardActions disableSpacing>
-        {project.website !== ''
-          ? <IconButton aria-label="Visit project Website" href={project.website} target="_blank" rel="noreferrer">
-              <WebIcon />
-            </IconButton>
-          : ''
-        }
- 
-        {project.github !== ''
-          ? <IconButton aria-label="Visit project GitHub" href={project.github} target="_blank" rel="noreferrer">
-              <GitHubIcon />
-            </IconButton>
-          : ''
-        }
-
-        {project.skills.length
-          ? <ExpandMore
-            expand={expanded}
-            onClick={handleExpandClick}
-            aria-expanded={expanded}
-            aria-label="Show Skills"
-          >
-            <CodeIcon />
-          </ExpandMore>
-          : ''
-        }
+        <Grid container spacing={1}>
+          {project.links.map((link) => (
+            <Grid item key={link._id} xs={6}>
+              <Button
+                variant="outlined"
+                size="small"
+                sx={{
+                  fontSize: 11,
+                  width: '100%'
+                }}
+              >{link.name}</Button>
+            </Grid>
+          ))}
+        </Grid>
       </CardActions>
-
-      {project.skills.length
-        ? <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
-            <Typography paragraph>Skills Used:</Typography>
-
-            <Typography paragraph>{project.skills.map((skill, i) => skill + (i + 1 !== project.skills.length ? ', ': ' '))}</Typography>
-          </CardContent>
-        </Collapse>
-        : ''
-      }
     </Card>
   );
 }
