@@ -9,6 +9,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import Button from '@mui/material/Button';
+import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 
 const ProjectCard = ({ project }) => {
@@ -50,6 +51,8 @@ const ProjectCard = ({ project }) => {
                   fontSize: 11,
                   width: '100%'
                 }}
+                href={link.url}
+                target="_blank"
               >{link.name}</Button>
             </Grid>
           ))}
