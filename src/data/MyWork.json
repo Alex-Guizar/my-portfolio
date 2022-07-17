@@ -80,11 +80,6 @@
       "name": "Meet",
       "links": [
         {
-          "_id": "link8",
-          "name": "View Website",
-          "url": "https://alex-guizar.github.io/meet/"
-        },
-        {
           "_id": "link9",
           "name": "View GitHub",
           "url": "https://github.com/Alex-Guizar/meet/"
