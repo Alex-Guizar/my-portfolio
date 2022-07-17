@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/my-portfolio/static/js/main.91f26e58.js",
-    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/FirebaseIcon.svg": "/my-portfolio/static/media/FirebaseIcon.7840999a174fe3a49655ad334b6202b1.svg",
-    "static/media/PhpIcon.svg": "/my-portfolio/static/media/PhpIcon.89b75ea45e64c419cb8510d90cf7ed7a.svg",
-    "static/media/MongoDbIcon.svg": "/my-portfolio/static/media/MongoDbIcon.b508609b24c1a2bc58576411df58bb4b.svg",
-    "static/media/NodeIcon.svg": "/my-portfolio/static/media/NodeIcon.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
-    "static/media/JsIcon.svg": "/my-portfolio/static/media/JsIcon.239f1fe7901166b3f1accdcae2c91c4f.svg",
-    "static/media/SassIcon.svg": "/my-portfolio/static/media/SassIcon.540ec25faf04e640b555c5773d3a6d9f.svg",
-    "static/media/BootstrapIcon.svg": "/my-portfolio/static/media/BootstrapIcon.3a162f65200426203695ee878e6b62fb.svg",
-    "static/media/HtmlIcon.svg": "/my-portfolio/static/media/HtmlIcon.d421cccfdfd5a3c885575f073e9415ae.svg",
-    "index.html": "/my-portfolio/index.html",
-    "static/media/CssIcon.svg": "/my-portfolio/static/media/CssIcon.ccdd9d9be79fe26dd0a8e24d8334a0f0.svg",
-    "static/media/AngularIcon.svg": "/my-portfolio/static/media/AngularIcon.e5f791ebfc23a0641c88394d19e08542.svg",
-    "static/media/ReactIcon.svg": "/my-portfolio/static/media/ReactIcon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.073c9b0a.css.map": "/my-portfolio/static/css/main.073c9b0a.css.map",
-    "main.91f26e58.js.map": "/my-portfolio/static/js/main.91f26e58.js.map",
-    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.1e76989f.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/FirebaseIcon.svg": "/static/media/FirebaseIcon.7840999a174fe3a49655ad334b6202b1.svg",
+    "static/media/PhpIcon.svg": "/static/media/PhpIcon.89b75ea45e64c419cb8510d90cf7ed7a.svg",
+    "static/media/MongoDbIcon.svg": "/static/media/MongoDbIcon.b508609b24c1a2bc58576411df58bb4b.svg",
+    "static/media/NodeIcon.svg": "/static/media/NodeIcon.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
+    "static/media/JsIcon.svg": "/static/media/JsIcon.239f1fe7901166b3f1accdcae2c91c4f.svg",
+    "static/media/SassIcon.svg": "/static/media/SassIcon.540ec25faf04e640b555c5773d3a6d9f.svg",
+    "static/media/BootstrapIcon.svg": "/static/media/BootstrapIcon.3a162f65200426203695ee878e6b62fb.svg",
+    "static/media/HtmlIcon.svg": "/static/media/HtmlIcon.d421cccfdfd5a3c885575f073e9415ae.svg",
+    "index.html": "/index.html",
+    "static/media/CssIcon.svg": "/static/media/CssIcon.ccdd9d9be79fe26dd0a8e24d8334a0f0.svg",
+    "static/media/AngularIcon.svg": "/static/media/AngularIcon.e5f791ebfc23a0641c88394d19e08542.svg",
+    "static/media/ReactIcon.svg": "/static/media/ReactIcon.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.1e76989f.js.map": "/static/js/main.1e76989f.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.91f26e58.js"
+    "static/js/main.1e76989f.js"
   ]
 }
